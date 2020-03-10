@@ -1,0 +1,71 @@
+main{
+
+    background-color: lightgray;
+    width:85%;
+    margin: auto;
+    height: 100rem;
+}
+
+
+nav ul{
+    display: block;
+    width: 200px;
+    background-color: darkgray;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    padding: 8px;
+    transition-duration:700ms;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover,#onpage{
+    background-color: lightgray;
+}
+
+body{
+    background-color: darkgray;
+
+}
+
+header{height: 300px;
+    background-image: url(../media/beach-daylight-geology-greece-221433.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#table{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 3fr;
+    padding-left:1rem;
+
+}
+#listofthings{
+    grid-column: 1;
+    background-color: whitesmoke;
+}
+#remove{
+    grid-column:2;
+    background-color: whitesmoke;
+}
+
+#textHome{
+    padding-left:216px;
+    padding-top: 16px;
+}
+
+p, label ,h1, article>ul>li{
+    font-family: sans-serif;
+    padding-top: 0.2rem;
+}
+
+h1{
+    font-size: 2rem;
+}
